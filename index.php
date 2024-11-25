@@ -2,7 +2,7 @@
 
 include("./connect.php");
 
-$fetch_query = "SELECT * FROM `vid_tb`";
+$fetch_query = "SELECT * FROM `uploads_tb`";
 
 $send_query = mysqli_query($connect, $fetch_query);
 
