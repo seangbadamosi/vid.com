@@ -9,8 +9,6 @@ $send_query = mysqli_query($connect, $fetch_query);
 
 $uploads = mysqli_fetch_all($send_query,MYSQLI_ASSOC) ;
 
-
-
 ?>
 
 <body>
@@ -33,8 +31,8 @@ $uploads = mysqli_fetch_all($send_query,MYSQLI_ASSOC) ;
                 <?php } ?>
             </div>
             <div class="center">
-                <a class="waves-effect waves-light btn-small light-blue"><i class="material-icons left">cloud_upload</i>button</a>
+                <a href="./upload.php" class="waves-effect waves-light btn-small light-blue"><i class="material-icons left">cloud_upload</i>Upload</a>
             </div>
         </div>
 </body>
-</html>
+<?php include "./footer.php"; ?>

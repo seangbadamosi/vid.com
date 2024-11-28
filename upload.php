@@ -1,12 +1,10 @@
-<?php
-include "./header.php";
-?>
+<?php include "./header.php"; ?>
 
 <body>
-  <div class="container">
-    <form action="">
-    <div class="row">
-    <form class="col s12">
+    <div class="container">
+        <form action="">
+        <div class="row">
+            <form class="col s12">
       <div class="row">
         <div class="input-field col l6">
           <label for="first_name">Vid Title</label><br>
@@ -27,11 +25,11 @@ include "./header.php";
           <input placeholder="" id="first_name" type="text" class="validate">
         </div>
         <div class="center">
-          <a class="waves-effect waves-light btn-small light-blue"><i class="material-icons left">cloud_upload</i>button</a>
+          <a class="waves-effect waves-light btn-small light-blue"><i class="material-icons left">cloud_upload</i>upload</a>
         </div>
       </div>
-
     </form>
     </div>
 </body>
-</html>
+
+<?php include "./footer.php"; ?>

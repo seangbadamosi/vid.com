@@ -8,16 +8,22 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <style>
-    header{
+        header, footer{
             height: 20vh;
-            width: 100vw;
+            width: 98.7vw;
             background-color: lightblue;
             display: flex;
             justify-content: center;
             color: white;
             margin-bottom: 20px;
         }
-        </style>
+
+        footer{
+            margin-top: 10px;
+            margin-bottom: 0px !important;
+        }
+
+    </style>
     <title>Document</title>
 </head>
 <body>
