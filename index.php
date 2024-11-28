@@ -16,11 +16,23 @@ $uploads = mysqli_fetch_all($send_query,MYSQLI_ASSOC) ;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        header{
+            height: 20vh;
+            width: 100vw;
+            background-color: lightblue;
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
+    <header>
+
+    </header>
     <div class="container">
         <div class="row">
             <?php foreach ($uploads as $video) {?>
@@ -38,6 +50,9 @@ $uploads = mysqli_fetch_all($send_query,MYSQLI_ASSOC) ;
                     </div>
                 </div>
                 <?php } ?>
+            </div>
+            <div class="center">
+                <a class="waves-effect waves-light btn-small light-blue"><i class="material-icons left">cloud_upload</i>button</a>
             </div>
         </div>
 </body>

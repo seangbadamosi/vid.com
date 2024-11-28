@@ -33,7 +33,7 @@
           <input placeholder="" id="first_name" type="text" class="validate">
         </div>
         <div class="center">
-          <a class="waves-effect waves-light btn-small"><i class="material-icons left">cloud_upload</i>button</a>
+          <a class="waves-effect waves-light btn-small light-blue"><i class="material-icons left">cloud_upload</i>button</a>
         </div>
       </div>
 
